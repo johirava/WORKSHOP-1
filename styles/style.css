@@ -1,0 +1,269 @@
+.contenedor{
+	max-width: 900px;
+	margin: auto;
+}
+
+header nav{
+	background: #25455B;
+	color: white;
+	overflow: auto;
+	padding: 20px 0px
+}
+
+body h1, h2, h4{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+body h2{
+	font-size: 28px;
+}
+
+body p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header h2{
+	display: inline-block;
+	font-size: 18px;
+}
+
+header ul{
+	float:right;
+}
+
+header li{
+	display: inline-block;
+	margin: 0px 8px;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+
+header h1{
+	font-size: 48px;
+	padding: 15px;
+}
+
+header p{
+	padding: 15px;
+}
+
+.centrar{
+	text-align: center;
+	background-color: #1db69a;
+	color: white;
+	padding: 60px 0px;
+}
+
+header img{
+	height: 187px;
+}
+
+.ion-android-star{
+	font-size: 29px;
+}
+
+.palitoblanco:before{
+    content: "";
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    background: white;
+    position: relative;
+    bottom: 7px;
+    right: 5px;
+}
+
+.palitoblanco:after{
+    content: "";
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    background: white;
+    position: relative;
+    bottom: 7px;
+    left: 5px;
+}
+
+.palitoazul:before{
+    content: "";
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    background: #25455B;
+    position: relative;
+    bottom: 7px;
+    right: 5px;
+}
+
+.palitoazul:after{
+    content: "";
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    background: #25455B;
+    position: relative;
+    bottom: 7px;
+    left: 5px;
+}
+
+.starblue{
+    color: #25455B;
+}
+
+.centrardos{
+	text-align: center;
+	padding: 90px 0px;
+}
+
+.centrardos img{
+	width: 33%;
+	padding: 6px;
+    box-sizing: border-box;
+}
+
+.parrafo{
+	width: 49%;
+	display: inline-block;
+	text-align: left;
+	line-height: 1.5;
+    margin: 20px 0px;
+}
+
+
+
+.about{
+	max-width: 700px;
+	margin: auto;
+}
+
+.centrar article a{
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+    padding: 10px 14px;
+	position: relative;
+    top: 10px;
+}
+
+.centrar article{
+	padding: 15px 0px 30px 0px;
+}
+
+.ion-archive{
+	font-size: 22px;
+	padding-right: 15px;
+}
+
+.centrardos form input{
+	display: block;
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #bdbdbd;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    width: 100%;
+    padding: 17px 0px 17px 11px;
+}
+
+.centrardos form textarea{
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #bdbdbd;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    width: 100%;
+    padding: 17px 0px 17px 11px;
+}
+
+.centrardos form input:first-child{
+	border-top: 1px solid #bdbdbd;
+}
+
+.centrardos form input:nth-child(4){
+    padding-bottom: 101px;
+}
+
+.centrardos form{
+	max-width: 700px;
+    margin: auto;
+    padding-top: 15px; 
+}
+
+
+.centrardos form input:last-child{
+    width: 74px;
+    background: #1db69a;
+    color: white;
+    border-radius: 5px;
+    margin-top: 14px;
+    padding: 9px 0px;
+    margin-left: 9px;
+}
+
+
+.footeruno{
+    background-color: #385c75;
+    padding: 30px 0px 30px 0px;
+}
+
+.footeruno article{
+    color: white;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.footeruno li{
+    display: inline-block;
+}
+
+.footeruno span{
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    border-radius: 49%;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.footeruno h4{
+    margin-bottom: 18px;
+}
+
+.footeruno p{
+    font-size: 14px;
+}
+
+.footeruno article:last-child a{
+    color:#1db69a;
+    font-weight: bold;
+}
+
+.footerdos{
+    background: #25455B;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
