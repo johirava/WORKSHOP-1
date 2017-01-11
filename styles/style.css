@@ -38,7 +38,7 @@ header li{
 	margin: 0px 8px;
 }
 
-header a{
+header li a{
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
@@ -53,6 +53,19 @@ header h1{
 
 header p{
 	padding: 15px;
+}
+
+header .menu{
+    float: right;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px 14px;
+    margin-right: 20px;
+    display: none;
 }
 
 .centrar{
@@ -123,10 +136,37 @@ header img{
 	padding: 90px 0px;
 }
 
-.centrardos img{
-	width: 33%;
-	padding: 6px;
-    box-sizing: border-box;
+.profile-conteiner{
+    position: relative;
+    display: inline-block;
+    margin: 6px;
+    width: 31%;
+}
+
+.profile-conteiner img{
+    width: 100%;
+}
+
+.profile-conteiner span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 3px;
+    right: 0px;
+    margin: auto;
+    padding-top: 30%;
+}
+
+.ion-search{
+    color: white;
+    font-size: 48px;
+    opacity: 0;
+}
+
+.profile-conteiner span:hover{
+    transition:1s;
+    background-color: black;
+    opacity: 0.6;
 }
 
 .parrafo{
@@ -136,7 +176,6 @@ header img{
 	line-height: 1.5;
     margin: 20px 0px;
 }
-
 
 
 .about{
@@ -174,7 +213,7 @@ header img{
     border-left: none;
     border-top: none;
     border-right: none;
-    width: 100%;
+    width: 95%;
     padding: 17px 0px 17px 11px;
 }
 
@@ -187,7 +226,7 @@ header img{
     border-left: none;
     border-top: none;
     border-right: none;
-    width: 100%;
+    width: 95%;
     padding: 17px 0px 17px 11px;
 }
 
@@ -225,7 +264,7 @@ header img{
 .footeruno article{
     color: white;
     display: inline-block;
-    width: 33%;
+    width: 31%;
     text-align: center;
     vertical-align: top;
 }
@@ -266,4 +305,139 @@ header img{
     text-align: center;
     color: white;
     font-size: 12px;
+}
+
+/* MEDIA */
+
+@media (max-width: 768px){
+    
+    .contenedor{
+        max-width: 600px;
+    }
+
+    header nav ul{
+        display: none;
+    }
+    
+    header .menu{
+        display: inline-block;
+    }
+
+    header .menu span{
+        margin-left: 8px;
+    }
+    
+    body h2{
+        font-size: 60px;
+    }
+
+    header h2{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    header img{
+        height: 333px;
+    }
+
+    .profile-conteiner{
+        width: 90%
+    }
+
+    .ion-search{
+        font-size: 80px;
+    }
+    
+    .ion-android-star{
+        font-size: 45px;
+    }
+
+    .palitoblanco:before{
+    height: 6px;
+    width: 120px;
+    position: relative;
+    bottom: 12px;
+    right: 8px;
+    }
+
+    .palitoblanco:after{
+        height: 6px;
+        width: 120px;
+        position: relative;
+        bottom: 12px;
+        left: 8px;
+    }
+
+    .palitoazul:before{
+        height: 6px;
+        width: 120px;
+        position: relative;
+        bottom: 12px;
+        right: 8px;
+    }
+
+    .palitoazul:after{
+        height: 6px;
+        width: 120px;
+        position: relative;
+        bottom: 12px;
+        left: 8px;
+    }
+
+    .parrafo{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .centrar article a {
+        font-size: 28px;
+        top:20px;
+    }    
+    
+    .centrardos form input {
+        font-size: 24px
+    }
+
+    .centrardos form textarea {
+        font-size: 24px;
+    }
+
+    .centrardos form input:last-child{
+        font-size: 20px;
+    }
+
+    .footeruno article{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .footeruno article:last-child{
+        margin-bottom: 0px;
+    }
+
+    .footeruno h4{
+        font-size: 30px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .footeruno p{
+        font-size: 20px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .footeruno span{
+        font-size: 31px;
+        width: 50px;
+        height: 50px;
+        border: 2px solid white;
+        padding-top: 8px;
+    }
+
+    .footerdos p{
+        font-size: 16px;
+    }
+
+    .footerdos{
+        padding: 40px 0px 40px 0px;
+    }
 }
